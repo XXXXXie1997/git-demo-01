@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zn">
+<head>
+    <meta charset="UTF-8">
+    <title>尝试插入音频视频图片等元素</title>
+    <style>
+        .box:hover{
+            border:5px rgb(229, 163, 199) solid;
+        }
+    </style>
+</head>
+<body>
+    <span class="box">
+        <img src="./source/测试用图.jpg" width="300">
+    </span>
+<video height="300" controls><source src="./source/杜比全景声Amaze.mp4"></video>
+    <!-- 若想调整插入视频的大小，需在sourc的父元素video中调整width或height属性 -->
+   
+    <p>可以使用base64对图片进行转码，将其图形码直接贴入src即可。
+</p>
+    <br>
+</body>
+</html>
